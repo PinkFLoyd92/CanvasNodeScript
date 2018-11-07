@@ -1,0 +1,15 @@
+{
+  "name": "canvas-script",
+  "version": "1.0.0",
+  "description": "Conjunto de Scripts utilitarios usados en Canvas LMS",
+  "repository": "https://github.com/PinkFLoyd92/CanvasNodeScript.git",
+  "author": "Sebastián Cáceres <ascacere92@gmail.com>",
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "node ./packages/migracion/index.js"
+  }
+}

@@ -1,0 +1,17 @@
+node_modules/
+tmp/
+spec/
+bin/
+doc/
+dl.fedoraproject.org/
+gems/
+script/
+Gemfile.d/
+log/
+public/dist/
+public/fonts/
+client_apps/
+docker-compose/
+db/
+build/
+doc/

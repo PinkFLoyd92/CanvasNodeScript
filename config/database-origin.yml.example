@@ -1,0 +1,25 @@
+test:
+  adapter: postgresql
+  encoding: utf8
+  database: canvas
+  host: localhost
+  username: canvas
+  timeout: 5000
+
+development:
+   host: localhost
+   adapter: postgresql
+   encoding: utf8
+   database: canvas_restore_20180925
+   username: postgres
+   password: 123
+   timeout: 5000
+
+production:
+  adapter: postgresql
+  encoding: utf8
+  database: canvas_production_2018
+  host: localhost
+  username: canvas
+  password: your_password
+  timeout: 5000
